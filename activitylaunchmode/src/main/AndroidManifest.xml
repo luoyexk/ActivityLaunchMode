@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.zou.alm">
+
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".A1_StandardActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".A2_StandardActivity">
+        </activity>
+        <activity android:name=".B_SingleTopActivity"
+            android:launchMode="singleTop">
+        </activity>
+        <activity android:name=".C_SingleTaskActivity"
+            android:launchMode="singleTask">
+        </activity>
+        <activity android:name="com.zou.alm.D_SingleInstanceActivity"
+            android:launchMode="singleInstance">
+        </activity>
+    </application>
+
+</manifest>

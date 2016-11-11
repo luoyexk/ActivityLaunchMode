@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LaunchMode</string>
+    <string name="b">Launch B_SingleTop</string>
+    <string name="c">Launch C_SingleTask</string>
+    <string name="d">Launch C_SingleInstance</string>
+    <string name="a2">Launch A2_Standard</string>
+    <string name="a1">Launch A1_Standard</string>
+    <string name="print_stack_all_activities">Print stack all activities</string>
+    <string name="mode1">This is Standard Mode A1</string>
+    <string name="mode2">This is Standard Mode A2</string>
+    <string name="modeB">This is SingleTop Mode</string>
+    <string name="modeC">This is SingleTask Mode</string>
+    <string name="modeD">This is SingleInstance Mode</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/btn"
+            android:text="@string/a1"/>
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/btn"
+            android:text="@string/a2"/>
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/btn"
+            android:text="@string/b"/>
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/btn"
+            android:text="@string/c"/>
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/btn"
+            android:text="@string/d"/>
+
+        <Button
+            android:id="@+id/btn_print_stack_activity"
+            style="@style/btn"
+            android:text="@string/print_stack_all_activities"/>
+
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
