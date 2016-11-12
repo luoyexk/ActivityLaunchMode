@@ -6,3 +6,5 @@ We can see detail of activity lifecycle by Logcat and the number of activity whi
 That`s all. 
 
 ![](https://github.com/luoyexk/ActivityLaunchMode/blob/master/activitylaunchmode/image/demo.gif)
+
+[Detail](http://www.jianshu.com/p/fce554b136b3)
